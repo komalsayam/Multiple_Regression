@@ -1,0 +1,26 @@
+
+Call:
+lm(formula = Price ~ Area + Bedrooms + Distance, data = house_data)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-13352  -2766   1644   4511   9761 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -179800.66   79323.40  -2.267    0.064 .  
+Area            325.94      32.17  10.131 5.38e-05 ***
+Bedrooms     -16233.77   11248.76  -1.443    0.199    
+Distance       6617.34    4171.61   1.586    0.164    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 9165 on 6 degrees of freedom
+Multiple R-squared:  0.9912,	Adjusted R-squared:  0.9867 
+F-statistic: 224.4 on 3 and 6 DF,  p-value: 1.504e-06
+
+       1        2 
+397900.9 368797.9 
+R-squared: 0.9911649 
+Adjusted R-squared: 0.9867473 
+Residual Standard Error: 9164.756 
